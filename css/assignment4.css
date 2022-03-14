@@ -1,0 +1,112 @@
+
+.header{
+    height: 150px;
+    width: 60%;
+    background-color: brown;
+    display: inline;
+   
+}
+.branding{
+    height: 150px;
+    width: 40%;
+    background-color: blueviolet;
+    display: flex;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.socialmedia{
+    height: 75px;
+    width: 60%;
+    background-color: rgb(233, 7, 7);
+    display: flex;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    
+}
+.menu{
+    height: 75px;
+    width: 60%;
+    background-color:fuchsia;
+    display: flex;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    
+}
+.container{
+    
+}
+.imagegallery{
+    height: 300px;
+    width: 100%;
+    background-color: darkblue;
+    display: flex;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    
+}
+.courses{
+    
+}
+.bootcamp{
+    height: 250px;
+    width: 25%;
+    background-color:coral;
+    display: flex;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+
+    
+}
+.cloud{
+    height: 250px;
+    width: 25%;
+    background-color:rgb(216, 10, 188);
+    display: flex;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    
+}
+.machinelearning{
+    height: 250px;
+    width: 25%;
+    background-color:rgb(49, 238, 12);
+    display: flex;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    
+}
+.systemdesign{
+    height: 250px;
+    width: 25%;
+    background-color:rgba(250, 52, 3, 0.705);
+    display: flex;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    
+}
+.footer{
+    height: 200px;
+    width: 100%;
+    background-color:rgba(3, 151, 250, 0.884);
+    display: flex;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
