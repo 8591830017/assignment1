@@ -1,14 +1,21 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 1800px;
+    margin: auto;
+}
 .header{
     height: 150px;
-    width: 60%;
-    background-color: brown;
-    display: inline;
+    width: 1800px;
+    
+   margin: auto; 
    
 }
 .branding{
     height: 150px;
-    width: 40%;
+    width: 600px;
     background-color: blueviolet;
     display: flex;
     float: left;
@@ -16,33 +23,63 @@
     justify-content: center;
     font-weight: bold;
 }
+.branding img{
+    height: 150px;
+    width: 600px;
+}
 .socialmedia{
     height: 75px;
-    width: 60%;
-    background-color: rgb(233, 7, 7);
+    width: 1200px;
     display: flex;
     float: left;
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    
+    background-color:deeppink ;
+    }
+.socialmedia i{
+    height: 75px;
+    width: 1200px;
+    margin-left: 50px;
+    align-items: center;
+    line-height: 75px;;
 }
 .menu{
     height: 75px;
-    width: 60%;
-    background-color:fuchsia;
-    display: flex;
+    width: 1200px;
+float: left;
+    
+}
+.menu ul li{
     float: left;
-    align-items: center;
-    justify-content: center;
+    list-style: none;
+    display: block;
+    height: 60px;
+    background-color: orangered ;
+    width: 290px;
+    margin-left: 10px;
+    margin-top: 7px;
+    text-align: center;
+    line-height: 60px;
     font-weight: bold;
     
 }
+.menu ul li:hover{
+    background-color: orange ;
+}
+.menu ul li a{
+    text-decoration: none;
+    color:blanchedalmond;
+}
+
+
+
+
 .container{
     
 }
 .imagegallery{
-    height: 300px;
+    height: 400px;
     width: 100%;
     background-color: darkblue;
     display: flex;
@@ -50,60 +87,67 @@
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    
+    overflow: scroll;
+}
+.imagegallery img{
+    height: 400px;
+    width: 100%;
 }
 .courses{
+    width: 1800px;
+    height: 400px;
     
 }
 .bootcamp{
-    height: 250px;
-    width: 25%;
+    height: 400px;
+    width: 450px;
     background-color:coral;
-    display: flex;
     float: left;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
 
     
 }
+.bootcamp img{
+    height: 400px;
+    width: 450px;
+}
 .cloud{
-    height: 250px;
-    width: 25%;
+    height: 400px;
+    width: 450px;
     background-color:rgb(216, 10, 188);
-    display: flex;
     float: left;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
     
+}
+.cloud img{
+    height: 400px;
+    width: 450px;
 }
 .machinelearning{
-    height: 250px;
-    width: 25%;
+    height: 400px;
+    width: 450px;
     background-color:rgb(49, 238, 12);
-    display: flex;
     float: left;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
     
 }
+.machinelearning img {
+    height: 400px;
+    width: 450px;
+}
+
 .systemdesign{
-    height: 250px;
-    width: 25%;
+    height: 400px;
+    width: 450px;
     background-color:rgba(250, 52, 3, 0.705);
-    display: flex;
     float: left;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    
-}
+    }
+
+.systemdesign img {
+    height: 400px;
+    width: 450px;
+}   
 .footer{
-    height: 200px;
+    height: 100px;
     width: 100%;
-    background-color:rgba(3, 151, 250, 0.884);
+    background-color:darkmagenta;
     display: flex;
     float: left;
     align-items: center;
